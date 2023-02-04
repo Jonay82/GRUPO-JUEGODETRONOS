@@ -1,0 +1,19 @@
+.personajes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--buscador{
+      padding: 50px;
+    }
+    &--idiomas{
+      display: flex;
+      padding: 50px;
+    }
+  }
+}
